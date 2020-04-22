@@ -1,0 +1,243 @@
+########################## Banner #############################
+banner:
+  enable : true
+  writter : "Nils Lesieur"
+  title : "Agile Fluency<br>"
+  image : "images/about/mockupHD.png"
+  content : "Un super livre trop cool qui parle d'agile fluency et traduit par Nils le rugbyman."
+
+######################## Book Preview ##########################
+preview:
+  enable : true
+  pagePreview:
+    # page preview loop
+    - image : "images/about/NoteAuteurs.png"
+    - image : "images/about/Summary.png"
+    
+
+  title : "Coup d'oeil au livre"
+  content : "
+  Ce super livre, écrit par Tati Ghilaine l&apos;américaine est vraiment trop super et nous donnes bla bla bal bla bla bla lololol on va voir ce qu on dit ici ok"
+
+  inside:
+    # book inside item loop
+    - insideItem : "10 Chapitres"
+    - insideItem : "Des exemples concrets"
+    - insideItem : "De la saucisse bien cuite"
+    - insideItem : "Les meilleures pratiques du milieu"
+
+  # button
+  button:
+    enable : true
+    label : "Acheter sur amazon"
+    link : "#"
+
+
+########################## Service ##############################
+service:
+  enable : true
+  serviceItem:
+    # service item loop
+    - title : "Experience"
+      icon : "ti-microphone" # themify icon pack : https://themify.me/themify-icons
+      content : "Du contenu validé par l'expérience de 14 experts agilité sur le sujet."
+      
+    # service item loop
+    - title : "Un objectif clair"
+      icon : "ti-rocket" # themify icon pack : https://themify.me/themify-icons
+      content : "Faire de vous les killers de l'agilité."
+      
+    # service item loop
+    - title : "En bonus"
+      icon : "ti-email" # themify icon pack : https://themify.me/themify-icons
+      content : "Des outils simples et activables rapidement sur vos projets"
+
+
+######################### Quote #############################
+quote:
+  enable : true
+  quote: "Vive l'Agile Fluency, vive les jeux agiles et vive la France."
+  quoteBy: "Sean Paul"
+
+
+######################### Chapters ##########################
+chapters:
+  enable : true
+  title : "Les grands chapitres"
+  subtitle : "Aperçu des grandes parties du livre."
+  chapter:
+    # chapter preview loop
+    - title : "Partie 1"
+      content : "Découverte de l'Agile Fluency"
+
+    # chapter preview loop
+    - title : "Partie 2"
+      content : "Comment préparer une bonne fête à la saucisse ?"
+      
+    # chapter preview loop
+    - title : "Partie 3"
+      content : "Des exercices pratiques à faire en famille, votre mamie est acceptée."
+      
+    # chapter preview loop
+    - title : "Partie 4"
+      content : "Compilation des meilleurs citations de Jean Claude Van Damne"
+      
+    # chapter preview loop
+    - title : "Partie 6"
+      content : "Nils nous parle de sa passion pour les mini-shorts."
+      
+    # chapter preview loop
+    - title : "Partie 6"
+      content : "Pablo et Dragos sont sur un bateau. Le bateau tombe à l'eau. Que font-ils ? "
+
+
+########################## Revews ###########################
+reviews:
+  enable : true
+  title : "Ce qu'ils en disent"
+  subtitle : "Quelques retours de nos lecteurs !"
+  review:
+    # review item loop
+    - name : "Jojo La frite"
+      image : "images/client/test-1.jpg" # image size 80*80 px
+      designation : "Expert Coloriage"
+      rating : "five" # rating from one to five
+      content : "C'est vraiment le meilleur livre que j'ai lu de ma vie. Même si ça manque d'images."
+      
+    # review item loop
+    - name : "Nilam Arthur"
+      image : "images/client/test-2.jpg" # image size 80*80 px
+      designation : "Star de l'agile"
+      rating : "four" # rating from one to five
+      content : "C'est incroyable..pourtant je suis abonné à Picsou magazine, mais là j'ai a-do-ré !"
+      
+    # review item loop
+    - name : "Barrow Hasi"
+      image : "images/client/test-1.jpg" # image size 80*80 px
+      designation : "Sunrise ten"
+      rating : "five" # rating from one to five
+      content : "Quas ut distinctio tenetur animi nihil rem, amet dolorum totam. Ab repudiandae tempore qui fugiat amet ipsa id omnis ipsam."
+      
+    # review item loop
+    - name : "Nilam Arthur"
+      image : "images/client/test-2.jpg" # image size 80*80 px
+      designation : "Sunrise ten"
+      rating : "four" # rating from one to five
+      content : "Quas ut distinctio tenetur animi nihil rem, amet dolorum totam. Ab repudiandae tempore qui fugiat amet ipsa id omnis ipsam."
+
+
+#################################### device ################################
+devices:
+  enable : true
+  title : "A lire dès maintenant sur votre liseuse"
+  content : "Venez pécho le ebook, il est super et en plus y'a des blagues à l'intérieur, on va bien se marrer !"
+  image : "images/about/ipad.jpg"
+  feature:
+    # feature item loop
+    - title : "Le livre complet"
+      icon : "ti-bar-chart" # themify icon pack : https://themify.me/themify-icons
+      content : "Disponible rien que pour vos beaux yeux ébahis."
+      
+    # feature item loop
+    - title : "C'est trop cool"
+      icon : "ti-write" # themify icon pack : https://themify.me/themify-icons
+      content : "J'ai plus d'idées de connerie à écrire pour celui là."
+
+
+  # button
+  button:
+    enable : true
+    label : "Télécharger le ebook"
+    link : "#"
+
+######################################## author #############################
+author:
+  enable : true
+  image : "images/about/home-1.jpg"
+  name : "Yasin Arafat"
+  designation : "A technical Writer"
+  content : "
+  Do you want to be even more successful? Learn to love learn and growth. The more efort you put into improving your skills, the bigger the payoff you will get.
+
+
+  It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout."
+
+  # signature
+  siggnature : "images/about/2.png"
+
+
+################################ Awards #####################################
+awards:
+  enable : true
+  title : "We are award winner best selling book among the top rated 10 books!"
+  award:
+    # award item loop
+    - title : "International award"
+      image : "images/about/award-1.png"
+      
+    # award item loop
+    - title : "Meritorious award"
+      image : "images/about/award-2.png"
+      
+    # award item loop
+    - title : "Best book award"
+      image : "images/about/award-3.png"
+      
+    # award item loop
+    - title : "Excellence award"
+      image : "images/about/award-4.png"
+
+
+############################# Other books ###############################
+otherBooks:
+  enable : true
+  title : "Others books by the author"
+  subtitle : "Laboriosam eos aperiam excepturi accusamus velit repudiandae sit rem incidunt, similique
+            facere quas blanditiis."
+  book:
+    # books loop
+    - image : "images/about/b-1.jpg"
+      link : "#"
+      
+    # books loop
+    - image : "images/about/b-2.jpg"
+      link : "#"
+      
+    # books loop
+    - image : "images/about/b-3.jpg"
+      link : "#"
+      
+    # books loop
+    - image : "images/about/b-4.jpg"
+      link : "#"
+
+################################ Blog ###################################
+blog:
+  enable : true
+  title : "Our insights and articles"
+  subtitle : "Laboriosam eos aperiam excepturi accusamus velit repudiandae sit rem incidunt, similique facere quas blanditiis."
+  # blog post comes from 'content/blog'
+
+################################# Contact ##############################
+contact:
+  enable : true
+  title : "Contact Us"
+  subtitle : "Whether you have questions or you would just like to say hello, contact us.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident, atque!"
+  contactItem:
+    # contact Item loop
+    - title : "Contact Quickly"
+      icon : "ti-headphone-alt" # themify icon pack : https://themify.me/themify-icons
+      list:
+        - listItem : "+23-68017684"
+        
+    # contact Item loop
+    - title : "Email"
+      icon : "ti-email" # themify icon pack : https://themify.me/themify-icons
+      list:
+        - listItem : "startor@support.com"
+        
+    # contact Item loop
+    - title : "Location"
+      icon : "ti-location-pin" # themify icon pack : https://themify.me/themify-icons
+      list:
+        - listItem : "397 Lake forest drive street USA"
