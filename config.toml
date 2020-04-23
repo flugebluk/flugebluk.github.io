@@ -1,5 +1,5 @@
 ######################## default configuration ####################
-baseURL = "http://example.org/"
+baseURL = "https://flugebluk.github.io/"
 languageCode = "en-us"
 title = "Agile Fluency"
 theme = "influencer"
